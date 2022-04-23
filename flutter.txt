@@ -10,7 +10,7 @@ class apps extends StatelessWidget{
       home: Center(
         child: Text('Hello World')
         style: TextStyle(
-        		 color: Colors.red,
+        		 color: Colors.blue,
         		 fontSize: 20,
         		 format:format.bold,
         		 )
