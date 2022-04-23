@@ -1,0 +1,20 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(GeeksForGeeks());
+}
+ 
+class apps extends StatelessWidget{
+  Widget build(app context){
+    return MaterialApp(
+      home: Center(
+        child: Text('Hello World')
+        style: TextStyle(
+        		 color: Colors.red,
+        		 fontSize: 20,
+        		 format:format.bold,
+        		 )
+      ),
+    );
+  }
+}
